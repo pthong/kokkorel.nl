@@ -1,0 +1,64 @@
+/* kokkorel.nl custom cooking theme */
+:root {
+  /* Warm, appetizing palette */
+  --brand-bg: #fff9f3;
+  --brand-fg: #442200;
+  --brand-accent: #ff7a00; /* orange */
+  --brand-accent-2: #b83b5e; /* berry */
+  --brand-success: #2e7d32; /* herb green */
+}
+
+/* Nextra variables overrides via CSS where possible */
+html {
+  background-color: var(--brand-bg);
+}
+
+/***** Navbar *****/
+:root {
+  --nextra-primary-hue: 24; /* orange hue */
+}
+
+/* Links & accents */
+:root {
+  --tw-prose-links: var(--brand-accent);
+}
+
+a {
+  color: var(--brand-accent);
+}
+
+a:hover {
+  color: var(--brand-accent-2);
+}
+
+/* Headings */
+.prose h1,
+.prose h2,
+.prose h3,
+.prose h4 {
+  color: var(--brand-fg);
+}
+
+/* Buttons in theme */
+button,
+.nx-btn,
+.nx-button {
+  background-color: var(--brand-accent);
+  color: white;
+}
+
+button:hover,
+.nx-btn:hover,
+.nx-button:hover {
+  background-color: var(--brand-accent-2);
+}
+
+/* Footer */
+footer {
+  color: var(--brand-fg);
+}
+
+/* Code blocks tint slightly */
+pre, code {
+  background-color: #fff3e6;
+}

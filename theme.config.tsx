@@ -33,8 +33,14 @@ const config: DocsThemeConfig = {
     },
   },
   editLink: {
-    text: 'Verbeter deze pagia',
+    text: 'Verbeter deze pagina',
   },
+  primaryHue: { dark: 24, light: 24 },
+  head: (
+    <>
+      <link rel="stylesheet" href="/cooking.css" />
+    </>
+  ),
   faviconGlyph: '🍽️',
   footer: {
     text: '© kokkorel 2025 - 2026',
