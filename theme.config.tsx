@@ -45,6 +45,12 @@ const config: DocsThemeConfig = {
   footer: {
     text: '© kokkorel 2025 - 2026',
   },
+  useNextSeoProps() {
+    return {
+      titleTemplate: '%s - kokkorel.nl',
+      defaultTitle: 'kokkorel.nl',
+    }
+  },
 }
 
 export default config

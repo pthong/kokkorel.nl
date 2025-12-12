@@ -4,7 +4,9 @@ class MyDocument extends Document {
   render() {
     return (
       <Html lang="nl">
-        <Head />
+        <Head>
+          <meta name="description" content="kokkorel.nl — lekkere gerechten, bestellingen en documentatie." />
+        </Head>
         <body>
           <Main />
           <NextScript />
