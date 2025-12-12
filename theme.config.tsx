@@ -47,8 +47,11 @@ const config: DocsThemeConfig = {
   },
   useNextSeoProps() {
     return {
-      titleTemplate: '%s - kokkorel.nl',
+      titleTemplate: 'Kokkorel.nl ❤️ %s',
       defaultTitle: 'kokkorel.nl',
+      openGraph: {
+        siteName: 'kokkorel.nl',
+      },
     }
   },
 }
