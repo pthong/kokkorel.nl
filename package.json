@@ -1,7 +1,7 @@
 {
-  "name": "nextra-docs-template",
+  "name": "kokkorel.nl",
   "version": "0.0.1",
-  "description": "Nextra docs template",
+  "description": "kokkorel.nl",
   "scripts": {
     "dev": "next dev",
     "build": "next build",
@@ -9,23 +9,23 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/shuding/nextra-docs-template.git"
+    "url": "git+https://github.com/pthong/kokkorel.nl.git"
   },
-  "author": "Shu Ding <g@shud.in>",
+  "author": "Pascal Thong",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/shuding/nextra-docs-template/issues"
+    "url": "https://github.com/pthong/kokkorel.nl/issues"
   },
-  "homepage": "https://github.com/shuding/nextra-docs-template#readme",
+  "homepage": "https://github.com/pthong/kokkorel.nl#readme",
   "dependencies": {
-    "next": "^13.0.6",
-    "nextra": "latest",
-    "nextra-theme-docs": "latest",
-    "react": "^18.2.0",
-    "react-dom": "^18.2.0"
+    "next": "^13.5.11",
+    "nextra": "^2.6.0",
+    "nextra-theme-docs": "^2.6.0",
+    "react": "^18.3.1",
+    "react-dom": "^18.3.1"
   },
   "devDependencies": {
     "@types/node": "18.11.10",
-    "typescript": "^4.9.3"
+    "typescript": "^4.9.5"
   }
 }
