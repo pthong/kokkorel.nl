@@ -1,0 +1,35 @@
+ho
+
+import { useState } from 'react'
+
+{/* Import CSS modules */}
+import styles from '../components/counters.module.css'
+
+export const Counter = () => {
+  const [count, setCount] = useState(0);
+  return (
+    <div>
+      <button onClick={() => setCount(count + 1)} className={styles.counter}>Clicked {count} times</button>
+    </div>
+  );
+};
+
+<Counter/>
+
+![Image](/img/cd525254-a732-481c-9474-3d5e992cc5ae.jpg)
+
+### General recipe template
+
+| Component   | Options (examples)                  | Amount per serving         | Notes                  |
+|-------------|--------------------------------------|----------------------------|------------------------|
+| Protein     | chicken, tofu, beans                 | 120–150 g                  | optional               |
+| Starch      | rice, pasta, potato, bread           | 150–200 g cooked           | choose one             |
+| Vegetables  | mixed seasonal veg                   | 150–250 g                  | 2–3 types              |
+| Aromatics   | onion, garlic, ginger                | 1–3 tbsp                   | sauté first            |
+| Liquid      | stock, water, coconut milk, tomato   | 150–250 ml                 | adjust to sauce        |
+| Fat         | olive oil, butter, ghee              | 1–2 tbsp                   | for cooking            |
+| Acid        | lemon, vinegar, yogurt               | 1–2 tsp                    | to finish              |
+| Salt        | sea salt, soy sauce                  | to taste                   | season in stages       |
+| Spice/Herb  | cumin, paprika, chili, basil         | 1–2 tsp dried / 1–2 tbsp fresh | balance flavor     |
+| Sweetener   | sugar, honey, maple                  | 0–2 tsp                    | optional               |
+| Texture     | nuts, seeds, croutons                | 1–2 tbsp                   | garnish                |
